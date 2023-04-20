@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" stroke-linecap="round">
+  <defs>
+      <radialGradient xmlns="http://www.w3.org/2000/svg" id="RadialGradient">
+        <stop offset="0%" stop-color="#ff0040"/>
+        <stop offset="100%" stop-color="#633"/>
+      </radialGradient>
+      <radialGradient id="RadialGradient2">
+        <stop offset="50%" stop-color="#ff0040"/>
+        <stop offset="100%" stop-color="#ffa5bb"/>
+      </radialGradient>
+	<radialGradient id="RadialGradient3" cx="0.498" cy="0.7" r="0.7">
+        <stop offset="5%" stop-color="#ffdce5"/>
+		<stop offset="10%" stop-color="#ffd0db"/>
+		<stop offset="20%" stop-color="#ff9bb4"/>
+		<stop offset="30%" stop-color="#ff93ae"/>
+		<stop offset="40%" stop-color="#ff8ba8"/>
+		<stop offset="50%" stop-color="#ff7396"/>
+		<stop offset="60%" stop-color="#ff5f87"/>
+		<stop offset="70%" stop-color="#ff4675"/>
+		<stop offset="80%" stop-color="#ff2b61"/>
+		<stop offset="90%" stop-color="#ff134f"/>
+        <stop offset="100%" stop-color="#ff0040"/>
+      </radialGradient>
+	  <linearGradient id="Gradient1" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0%" stop-color="#ffa5bb"/>
+        <stop offset="100%" stop-color="#ff0040"/>
+      </linearGradient>
+      <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0%" stop-color="#ff0040"/>
+        <stop offset="100%" stop-color="#ffa5bb"/>
+      </linearGradient>
+	  <linearGradient id="Gradient3" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0%" stop-color="#ff0040"/>
+		<stop offset="50%" stop-color="#ffa5bb"/>
+        <stop offset="100%" stop-color="#ff0040"/>
+      </linearGradient>
+  </defs>
+  <path d="M 500 0 A 1 1 0 0 0 500 1000 A 1 1 0 0 0 500 0 Z" fill="black"/><!-- circle -->
+  <path d="M 200 300 L 500 900 L 800 300 L 665 300 L 500 700 L 335 300 L 200 300 Z" fill="url(#RadialGradient3)" stroke="url(#RadialGradient3)" stroke-width="40" /> <!--главная v  -->
+    <path d="M 499 50 L 499 500 L 500 500 L 500 50 M 500 50 Z" fill="none" stroke="url(#Gradient2)" stroke-width="25"/> <!--Палка-->
+  <path d="M 300 250 L 350 600 L 500 705 L 650 600 L 700 250 Z" fill="url(#RadialGradient)" stroke="url(#RadialGradient)" stroke-width="20"/><!--щит-->
+  <path d="M 335 300 L 500 700 L 665 300 L 566 300 L 500 500 L 434 300 L 335 300 Z" fill="url(#Gradient2)" stroke="url(#Gradient2)" stroke-width="10"/><!--v-->
+  <path d="M 200 200 L 400 200 L 500 500 L 600 200 L 800 200 M 400 200 Z" fill="none" stroke="url(#Gradient2)" stroke-width="25"/><!--vV-->
+  <path d="M 500 720 L 460 810 L 500 900 L 540 810 Z" fill="url(#Gradient1)" stroke="url(#Gradient1)" stroke-width="2"/><!--Ромб-->
+  <line x1="100" y1="300" x2="400" y2="900" fill="none" stroke="url(#Gradient3)" stroke-width="25"/>
+  <line x1="900" y1="300" x2="600" y2="900" fill="none" stroke="url(#Gradient3)" stroke-width="25"/>
+</svg>

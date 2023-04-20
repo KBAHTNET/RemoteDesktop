@@ -1,0 +1,1 @@
+https://dev.to/3vilarthas/vuex-typescript-m4j
